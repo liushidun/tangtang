@@ -1,0 +1,402 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,div,p,ul,li,ol,dl,dt,dd,table,th,h1,h2,h3,h4,h5,h6,table,tr,td,form,hr,img,input{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑",Arial;
+}
+a{
+	text-decoration:none;
+}
+ul,li{
+	list-style:none;
+}
+img{
+	border:none;
+}
+
+/*header*/
+.header{
+	height:44px;
+	background:#2f2f2f;
+	display: flex;
+}
+.title{
+	width: 298px;
+	height: 44px;
+}
+.title h2{
+	margin-left: 32px;
+	color: #008cd6;
+	line-height: 44px;
+	font-size: 24px;
+}
+.content{
+	width: 668px;
+	height: 44px;
+	color: white;
+	line-height: 44px;
+	display: flex;
+	justify-content: space-between;
+}
+.content a:hover{
+	color: #666;
+}
+.content a{
+	color: white;
+}
+.aa{
+	position: relative;
+	top:0;
+	left: 0;
+}
+.content-one{
+	position: absolute;
+	left: 0;
+	top: 44px;
+	z-index: 10;
+	width: 87px;
+	height: 210px;
+	display: none;
+}
+.bb{
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.content-two{
+	position: absolute;
+	left: 0;
+	top: 44px;
+	z-index: 10;
+	width: 87px;
+	height: 210px;
+	display: none;
+}
+.cc{
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.content-three{
+	position: absolute;
+	left: 3px;
+	top: 44px;
+	z-index: 10;
+	width: 87px;
+	height: 210px;
+	display: none;
+}
+.pic{
+	width: 298px;
+	height: 44px;
+	line-height: 44px;
+}
+.pic_1{
+	margin-left: 156px;
+	margin-top: 14px;
+}
+.pic_2{
+	position: relative;
+	margin-left: 62px;
+}
+.pic .hide{
+	width: 180px;
+	height: 250px;
+	background: white;
+	z-index: 10;
+	position: absolute;
+	left: 1052px;
+	top: 44px;
+	opacity: 0;
+}
+.hide img{
+	width: 40px;
+	height: 32px;
+}
+li div{
+	display: block ;
+	width: 180px;
+	height: 51.5px;
+	margin: 0 auto;
+}
+li .sh{
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.sh img{
+	position: relative;
+	top: 7px;
+	left: -3px;
+}
+li .me{
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.me img{
+	position: relative;
+	top: 10px;
+	left: -5px;
+}
+li .st{
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.st img{
+	position: relative;
+	top: 11px;
+	left: -5px;
+}
+li .de{
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.de img{
+	position: relative;
+	top:10px;
+	left: -5px;
+}
+/*nav*/
+.nav{
+	position:relative;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:606px;
+	background-color:pink;
+	overflow:hidden;
+}
+
+
+/*section*/
+.section-one{
+	width: 1260px;
+	height: 236px;
+	margin-top: 4px;
+	margin-left: 2px;
+	display: flex;
+	justify-content: space-between;
+}
+.section-one .one{
+	width: 314px;
+	height: 236px;
+	background: url(../img/01.jpg) left no-repeat;
+	background-size: 314px 236px;
+	-webkit-transition:0.5s;
+}
+.one:hover{
+	background-size: 334px 256px;
+}
+.one span{
+	display: block;
+	margin-left: 95px;
+	font-size: 20px;
+	color: white;
+	margin-top: 30px;
+}
+.one p{
+	margin-left: 120px;
+	color: white;
+	font-size: 14px;
+	margin-top: 40px;
+}
+.section-one .two{
+	width: 314px;
+	height: 236px;
+	background: url(../img/02.jpg) left no-repeat;
+	background-size: 314px 236px;
+	-webkit-transition:0.5s;
+}
+.two:hover{
+	background-size: 334px 256px;
+}
+.two span{
+	display: block;
+	margin-left: 30px;
+	font-size: 20px;
+	color: white;
+	margin-top: 30px;
+}
+.two p{
+	margin-left: 120px;
+	color: white;
+	font-size: 14px;
+	margin-top: 40px;
+}
+.three span{
+	display: block;
+	margin-left: 105px;
+	font-size: 20px;
+	color: #333;
+	margin-top: 30px;
+}
+.three p{
+	margin-left: 130px;
+	font-size: 14px;
+	color: #333;
+	margin-top: 40px;
+}
+.four span{
+	display: block;
+	margin-left: 130px;
+	font-size: 20px;
+	color: white;
+	margin-top: 30px;
+}
+.four p{
+	margin-left: 120px;
+	font-size: 14px;
+	color: white;
+	margin-top: 40px;
+}
+.section-one .three{
+	width: 314px;
+	height: 236px;
+	background: url(../img/03.jpg) left no-repeat;
+	background-size: 314px 236px;
+	-webkit-transition:0.5s;
+}
+.three:hover{
+	background-size: 334px 256px;
+}
+.section-one .four{
+	width: 314px;
+	height: 236px;
+	background: url(../img/04.jpg) left no-repeat;
+	background-size: 314px 236px;
+	-webkit-transition:0.5s;
+}
+.four:hover{
+	background-size: 334px 256px;
+}
+.section-two{
+	width: 1238px;
+	height: 266px;
+	margin-left: 24px;
+	margin-top: 56px;
+	display: flex;
+}
+.section-two .list{
+	width: 838px;
+	height: 266px;
+	display: flex;
+	justify-content: space-around;
+}
+.list ul li{
+	margin-top: 20px;
+
+}
+.list span{
+	font-size: 12px;
+	color: #323230;
+	font-weight: 600;
+}
+.list a{
+	font-size: 12px;
+	color: #323230;
+}
+.list a:hover{
+	color: #1da7f1;
+}
+.section-two .aside{
+	width: 400px;
+	height: 266px;
+}
+.aside .call{
+	font-size: 12px;
+	margin-left: 250px;
+	color: #666;
+}
+.aside h1{
+	font-size: 24px;
+	font-weight: 600;
+	color: #333;
+	margin-left: 196px;
+	margin-top: 20px;
+}
+.aside1{
+	width: 116px;
+	height: 30px;
+	border: 1px solid #367ca0;
+	border-radius: 15px;
+	margin-left: 256px;
+	margin-top: 20px;
+	background: url(../img/mesg.jpg) left no-repeat;
+	background-position: 10px;
+}
+.aside1 a{
+	display: block;
+	margin-top: 3px;
+	margin-left: 40px;
+	color: #377ca5;
+	font-weight: 600;
+}
+.aside1:hover{
+	background:#008ddc url(../img/mesg1.jpg) left no-repeat;
+	background-position: 10px;
+}
+.aside a:hover{
+	color: #fff;
+}
+
+/*foot*/
+.foot{
+	width: 1200px;
+	height: 80px;
+	border-top: 1px solid #f2f2f2;
+	margin-top: 112px;
+	padding-top:35px;
+	margin-left: 75px;
+}
+.foot .dix{
+	width: 150px;
+	height: 175px;
+	position: absolute;
+	left: 1070px;
+	top: 1200px;
+}
+.dix ul{
+	display: block;
+	margin-left: 12px;
+	opacity: 0;
+}
+.dix ul li{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+}
+.foot .ban{
+	font-size: 12px;
+	color: #2f2f2f;
+}
+.dix .zo,.da{
+	color: #333;
+    margin-top: 5px;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.dix .zo:hover{
+	color: #367ca0;
+}
+/*
+.foot .lu .yi .tost{
+	visibility: hidden;
+	opacity: 1;
+	position: absolute;
+	width: 150px;
+	height: 160px;
+	box-shadow: -15px 3px 30px -2px rgba(0,0,0,.1);
+	left:-325px;
+	bottom: 100px;
+	background-color: #fff;
+	text-align: center;
+}
+.tost img{
+	width: auto;
+	height: 100%;
+}
+*/

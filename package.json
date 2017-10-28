@@ -1,0 +1,18 @@
+{
+  "name": "kingphone",
+  "version": "1.0.0",
+  "description": "这是一个gulp的测试程序",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "liushidun",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.2"
+  }
+}

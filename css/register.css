@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,div,p,ul,li,ol,dl,dt,dd,table,th,h1,h2,h3,h4,h5,h6,table,tr,td,form,hr,img,input{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑",Arial;
+}
+a{
+	text-decoration:none;
+}
+ul,li{
+	list-style:none;
+}
+img{
+	border:none;
+}
+
+
+.box{
+	width: 900px;
+	height: 600px;
+	background-color: white;
+	margin: 50px auto;
+}
+h1{
+	width: 120px;
+	height: 70px;
+	line-height: 70px;
+	display: block;
+	font-size: 56px;
+	color: #048dd5;
+	margin-top: 30px;
+	margin-left: 388px;
+}
+.box .ce{
+	display: block;
+	font-size: 16px;
+	color: #333;
+	margin-top: 20px;
+	margin-left: 400px;
+}
+.box1{
+	width: 772px;
+	height: 335px;
+	margin: 30px auto;
+}
+.box1 #one,#two{
+	width: 338px;
+	height: 48px;
+	display:block;
+	margin: 30px auto;
+	outline: none;
+}
+.box1 #three{
+	width: 20px;
+	height: 20px;
+	margin-left: 216px;
+}
+.box1 .fo{
+	margin-left: 256px;
+	display: block;
+	margin-top: -25px;
+	font-size: 16px;
+	color: #333;
+}
+.box1 .ok{
+	width: 338px;
+	height: 48px;
+	background-color: #2899f7;
+	line-height: 48px;
+	text-align: center;
+	font-size: 20px;
+	margin-left: 217px;
+	margin-top: 25px;
+}
+.ok:hover{
+	background-color: #1DA7F1;
+}
+.ok .next{
+	color: white;
+}
+.box1 .em{
+	font-size: 14px;
+	color: #333;
+	display: block;
+	margin-top: 28px;
+	margin-left: 500px;
+}
+.em:hover{
+	color: #1DA7F1;
+}
